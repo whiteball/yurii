@@ -1,0 +1,10 @@
+charset,UTF-8
+
+craftman,-
+craftmanurl,
+craftmanw,-
+
+name,Master
+type,shell
+
+seriko.use_self_alpha,0

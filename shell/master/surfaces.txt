@@ -1,0 +1,301 @@
+charset,UTF-8
+
+descript
+{
+version,1
+}
+
+// ここから\0側の基本と目元定義
+surface0-8,!1,!6
+{
+    element0,base,surface1010b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,1000,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface100-108,!101,!106
+{
+    element0,base,surface1020b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,1000,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface120-128,!121,!126
+{
+    element0,base,surface1030b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,1000,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface140-148,!141,!146
+{
+    element0,base,surface1040b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,1000,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface6,26,106,116,126,136,146,156
+{
+    element0,base,surface1000b.png,0,0
+}
+
+surface20-28,!21,!26
+{
+    element0,base,surface1011.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,1010,50,0,0
+	animation0.pattern1,overlay,1000,50,0,0
+	animation0.pattern2,overlay,1010,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface110-118,!111,!116
+{
+    element0,base,surface1021.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,1020,50,0,0
+	animation0.pattern1,overlay,1000,50,0,0
+	animation0.pattern2,overlay,1020,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface130-138,!131,!136
+{
+    element0,base,surface1031.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,1030,50,0,0
+	animation0.pattern1,overlay,1000,50,0,0
+	animation0.pattern2,overlay,1030,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface150-158,!151,!156
+{
+    element0,base,surface1041.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,1040,50,0,0
+	animation0.pattern1,overlay,1000,50,0,0
+	animation0.pattern2,overlay,1040,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+// ここから\0側の口パク定義
+surface0-8,20-28,100-108,110-118,120-128,130-138,140-148,!1,!21,!101,!111,!121,!131,!141.append
+{
+    animation2.interval,talk,2
+    animation2.pattern0,overlay,1111,100,0,0
+	animation2.pattern1,overlay,1110,100,0,0
+    animation2.pattern2,overlay,1111,100,0,0
+    animation2.pattern3,overlay,-1,100,0,0
+}
+
+// ここから\0側の口元定義
+surface0,20,100,110,120,130,140,150.append
+{
+    element1,overlay,surface1100.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1100,0,0,0
+    animation1.pattern1,overlay,1100,150,0,0
+}
+surface2,22,102,112,122,132,142,152.append
+{
+    element1,overlay,surface1102.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1102,0,0,0
+    animation1.pattern1,overlay,1102,150,0,0
+}
+surface3,23,103,113,123,133,143,153.append
+{
+    element1,overlay,surface1103.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1103,0,0,0
+    animation1.pattern1,overlay,1103,150,0,0
+
+}
+surface4,24,104,114,124,134,144,154.append
+{
+    element1,overlay,surface1104.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1104,0,0,0
+    animation1.pattern1,overlay,1104,150,0,0
+}
+surface5,25,105,115,125,135,145,155.append
+{
+    element1,overlay,surface1105.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1105,0,0,0
+    animation1.pattern1,overlay,1105,150,0,0
+}
+surface6,26,106,116,126,136,146,156.append
+{
+    element1,overlay,surface1100.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1100,0,0,0
+    animation1.pattern1,overlay,1100,150,0,0
+}
+surface7,27,107,117,127,137,147,157.append
+{
+    element1,overlay,surface1107.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1107,0,0,0
+    animation1.pattern1,overlay,1107,150,0,0
+}
+surface8,28,108,118,128,138,148,158.append
+{
+    element1,overlay,surface1108.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,1108,0,0,0
+    animation1.pattern1,overlay,1108,150,0,0
+}
+
+
+// ここから\1側の基本と目元定義
+surface10-18,!11,!16
+{
+    element0,base,surface2010.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,2011,50,0,0
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern2,overlay,2011,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface200-208,!201,!206
+{
+    element0,base,surface2020.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,2021,50,0,0
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern2,overlay,2021,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface220-228,!221,!226
+{
+    element0,base,surface2030.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,2031,50,0,0
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern2,overlay,2031,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface240-248,!241,!246
+{
+    element0,base,surface2040.png,0,0
+	animation0.interval,random,5
+	animation0.pattern0,overlay,2041,50,0,0
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern2,overlay,2041,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface16,36,206,216,226,236,246,256
+{
+    element0,base,surface2000b.png,0,0
+}
+
+surface30-38,!31,!36
+{
+    element0,base,surface2011b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface210-218,!211,!216
+{
+    element0,base,surface2021b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface230-238,!231,!236
+{
+    element0,base,surface2031b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+surface250-258,!251,!256
+{
+    element0,base,surface2041b.png,0,0
+	animation0.interval,random,8
+	animation0.pattern1,overlay,2000,50,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+// ここから\1側の口パク定義
+surface10-18,30-38,200-208,210-218,220-228,230-238,240-248,!11,!31,!201,!211,!221,!231,!241.append
+{
+    animation2.interval,talk,2
+    animation2.pattern0,overlay,2111,100,0,0
+	animation2.pattern1,overlay,2110,100,0,0
+    animation2.pattern2,overlay,2111,100,0,0
+    animation2.pattern3,overlay,-1,100,0,0
+}
+
+// ここから\1側の口元定義
+surface10,30,200,210,220,230,240,250.append
+{
+    element1,overlay,surface2100.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2100,0,0,0
+    animation1.pattern1,overlay,2100,150,0,0
+}
+surface12,32,202,212,222,232,242,252.append
+{
+    element1,overlay,surface2102.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2102,0,0,0
+    animation1.pattern1,overlay,2102,150,0,0
+}
+surface13,33,203,213,223,233,243,253.append
+{
+    element1,overlay,surface2103.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2103,0,0,0
+    animation1.pattern1,overlay,2103,150,0,0
+}
+surface14,34,204,214,224,234,244,254.append
+{
+    element1,overlay,surface2104.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2104,0,0,0
+    animation1.pattern1,overlay,2104,150,0,0
+}
+surface15,35,205,215,225,235,245,255.append
+{
+    element1,overlay,surface2105.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2105,0,0,0
+    animation1.pattern1,overlay,2105,150,0,0
+}
+surface16,36,206,216,226,236,246,256.append
+{
+    element1,overlay,surface2106.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2106,0,0,0
+    animation1.pattern1,overlay,2106,150,0,0
+}
+surface17,37,207,217,227,237,247,257.append
+{
+    element1,overlay,surface2107.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2107,0,0,0
+    animation1.pattern1,overlay,2107,150,0,0
+}
+surface18,38,208,218,228,238,248,258.append
+{
+    element1,overlay,surface2108.png,0,0
+    animation1.interval,always
+    animation1.pattern0,overlay,2108,0,0,0
+    animation1.pattern1,overlay,2108,150,0,0
+}
+
