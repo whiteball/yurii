@@ -1,2 +1,3 @@
-.git,nonar,noupdate
+.git/,nonar,noupdate
 .gitignore,nonar,noupdate
+.gitattributes,nonar,noupdate
